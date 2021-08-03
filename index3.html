@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style3.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="barrasuperior">20% de descuento en todos los productos</div>
+        <div id="barraheader"><img src="/img/Captura.PNG" alt="Tienda"> Nombre Tienda</div>
+    </header>
+    <section id="cuerpo">
+        <div id="login">
+            <p class="titulo">Registro</p>
+            <form action="/registro" method="POST">
+                <input class="fill" type="text" name="usuario" id="usuario" placeholder="Usuario"><br><br>
+                <input class="fill" type="text" name="email" id="email" placeholder="Email"><br><br>
+                <input class="fill" type="password" name="password" id="password" placeholder="Contraseña"><br><br>
+                <select class="fill"name="Pais">
+                    <option value="Argentina" name="Pais">Argentina</option>
+                    <option value="Colombia" name="Pais">Colombia</option>
+                    <option value="Brazil" name="Pais">Brazil</option>
+                </select><br><br>
+                <button class="resetear" type="reset">Resetear</button>
+                <button class="boton" type="submit">Registrar</button>
+            </form>
+            <p class="crearcuenta"><a href="test">¿No tienes una cuenta?</a> Registrarme</p>
+        </div>
+    </section>
+    <footer>
+        <div id="footer">
+            Todos los derechos reservados a FRONT END 1
+        </div>
+    </footer>
+</body>
+</html>
