@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style4.css">
+</head>
+
+<body>
+    <header>
+        <div id="barrasuperior">20% de descuento en todos los productos</div>
+        <div id="barraheader"><img src="/img/Captura.PNG" alt="Tienda"> Nombre Tienda</div>
+        <div id="barracontacto">
+            <article>Contacto</article>
+            <article>Registrarme</article>
+            <article>Ingresar</article>
+        </div>
+    </header>
+    <section id="cuerpo">
+        <div class="addsuper">
+            <div class="tituloform">
+                <h1>Añade tu super!</h1>
+                <p>Agrega tu personaje favorito completando las opciones</p>
+            </div>
+            <form class="formulario" action="/registro" method="POST">
+                <div class="columnas">
+                    <div>
+                        <label for="nombre">*Nombre</label><br>
+                        <input type="text" name="nombre" id="nombre"><br>
+                        <label for="fecha">Fecha</label><br>
+                        <input type="date" name="fecha" id="fecha"><br>
+                        <input id="descripcion"type="text" name="descripcion" id="descripcion" placeholder="Descripción">
+                    </div>
+                    <div>
+                        <label for="especie">*Especie</label><br>
+                        <select name="especie" id="especie">
+                            <option value="humano" name="humano">Humano</option>
+                            <option value="alien" name="alien">Alien</option>
+                        </select><br>
+                        <label for="foto">Agregar Foto</label><br>
+                        <input id="file" type="file" name="foto" accept=".jpg">
+                        <p>Poderes</p>
+                        <input class="selection" type="checkbox" name="poderes" value="Volar">
+                        <label for="poderes">Volar</label><br>
+                        <input class="selection" type="checkbox" name="poderes" value="SuperInteligencia">
+                        <label for="poderes">SuperInteligencia</label><br>
+                        <input class="selection" type="checkbox" name="poderes" value="Vista de rayo laser">
+                        <label for="poderes">Vista de rayo laser</label><br>
+                        <input class="selection" type="checkbox" name="poderes" value="Billetera gorda">
+                        <label for="poderes">Billetera gorda</label><br>
+                        <hr>
+                        <p>Tipo de Personaje</p>
+                        <input class="selection" type="radio" name="tipo">
+                        <label for="heroe">Heroe/Heroina</label><br>
+                        <input class="selection" type="radio" name="tipo">
+                        <label for="villano">Villano/Villana</label>
+                    </div>
+                </div>
+                <button>Añadir</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="footer">
+            Todos los derechos reservados a FRONT END 1
+        </div>
+    </footer>
+</body>
+
+</html>

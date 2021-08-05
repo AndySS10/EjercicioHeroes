@@ -14,7 +14,7 @@
 }
 #barraheader{
     width: 100%;
-    height: 101px;
+    height: 5vw;
     background: #00669f;
     color: white;
     padding-top: 0.2vw;
@@ -71,7 +71,7 @@
     width: 100%;
     height: 2.6vw;
     background: #00669f;
-    font-size: 16px;
+    font-size: 1vw;
     color: white;
     display: flex;
     justify-content: center;
